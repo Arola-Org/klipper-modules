@@ -44,8 +44,8 @@ verify (optional): If you are self hosting your own gotify server over https and
 [gcode_macro PRINT_START]         
 gcode:
     SAVE_VARIABLE VARIABLE=was_interrupted VALUE=True
-	G92 E0                                         
-	G90             
+    G92 E0                                         
+    G90             
     CLEAR_PAUSE
     M117 Printing
     GOTIFY_SEND TITLE="Elegoo Neptune 4 Pro" MSG="Print starting"
