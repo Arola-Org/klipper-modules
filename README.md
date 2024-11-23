@@ -33,9 +33,9 @@ protocol: https | http
 verify: False | True (Default if unset and using https)
 ```
 
-token (required): The login token associated with an app on your Gotify server
-endpoint (required): The address of your gotify server, this can be an DNS resolvable name or an IP address
-protocol (required): Whether your server is hosted over http (insecure) or https (secure)
+token (required): The login token associated with an app on your Gotify server\
+endpoint (required): The address of your gotify server, this can be an DNS resolvable name or an IP address\
+protocol (required): Whether your server is hosted over http (insecure) or https (secure)\
 verify (optional): If you are self hosting your own gotify server over https and the printer doesnt trust your certificate you an can set verify to False, by default this will be True if the protocol is https and you dont set this option.
 
 ##### Usage
